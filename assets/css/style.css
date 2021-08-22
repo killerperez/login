@@ -1,0 +1,40 @@
+#container-login{
+    margin-top: 50px;
+    border: solid 1px;
+    border-color: darkgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+#logo-user{
+    display: block;
+    margin: auto;
+    width: 10vw;
+}
+
+#ir-inicio{
+    border: 2px solid black;
+}
+
+@media (max-width: 650px) {
+    #container-login{
+        border: solid 1px;
+        border-color: rgb(0, 0, 0);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        width: 90%;
+    }
+    
+    #logo-user{
+        display: block;
+        margin: auto;
+        width: 45vw;
+    }
+
+    #ir-inicio{
+        border: 2px solid black;
+    }
+}
